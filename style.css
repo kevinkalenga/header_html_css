@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "open sans", Arial, sans-serif;
+}
+header {
+  background-image: url(/images/image.jpg);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  color: #fff;
+  padding: 30px 30px 150px 30px;
+}
+header h1 {
+  font-size: 6rem;
+  margin-top: 150px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 15px;
+}
+header .menu {
+  list-style-type: none;
+  float: right;
+  margin-right: 20px;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  text-shadow: 0 0 2px black;
+}
+header nav .menu li {
+  display: inline-block;
+  padding: 15px;
+}
+header h2 {
+  font-size: 2.5rem;
+  margin-top: -25px;
+  font-style: italic;
+}
+.active {
+  color: red;
+}
+header h1,
+h2 {
+  text-shadow: 0 0 5px black;
+}
+header .btn {
+  padding: 15px;
+  width: 275px;
+  font-size: 1.25rem;
+  background-color: rgb(0, 155, 235);
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 2px 0 rgb(0, 55, 135);
+}
+header .btn:hover {
+  cursor: pointer;
+}
+header .btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+}
